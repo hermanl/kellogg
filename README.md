@@ -4,6 +4,7 @@ Your project's description...
 ## Environments
 - Preview: https://main--kellogg--hermanl.hlx.page/
 - Live: https://main--kellogg--hermanl.hlx.live/
+- Reference: https://www.ricekrispiestreats.com/en-us/home.html
 
 ## Installation
 
