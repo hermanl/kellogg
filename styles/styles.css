@@ -12,17 +12,17 @@
 
 :root {
   /* colors */
-  --link-color: #035fe6;
-  --link-hover-color: #136ff6;
+  --link-color: #CD0F45;
+  --link-hover-color: #0096d9;
   --background-color: white;
   --light-color: #eee;
   --dark-color: #ccc;
   --text-color: black;
 
   /* fonts */
-  --body-font-family: roboto, roboto-fallback;
+  --body-font-family: "omnes", sans-serif;
   --heading-font-family: var(--body-font-family);
-  --fixed-font-family: 'Roboto Mono', menlo, consolas, 'Liberation Mono', monospace;
+  --fixed-font-family: "omnes", sans-serif;
 
   /* body sizes */
   --body-font-size-m: 22px;
@@ -42,7 +42,7 @@
 }
 
 @font-face {
-  font-family: roboto-fallback;
+  font-family: "omnes-pro", sans-serif;
   size-adjust: 100.06%;
   ascent-override: 95%;
   src: local('Arial');
@@ -63,7 +63,6 @@ body {
   font-size: var(--body-font-size-m);
   margin: 0;
   font-family: var(--body-font-family);
-  line-height: 1.6;
   color: var(--text-color);
   background-color: var(--background-color);
   display: none;
@@ -82,8 +81,6 @@ h4, h5, h6 {
   font-family: var(--heading-font-family);
   font-weight: 600;
   line-height: 1.25;
-  margin-top: 1em;
-  margin-bottom: .5em;
   scroll-margin: calc(var(--nav-height) + 1em);
 }
 

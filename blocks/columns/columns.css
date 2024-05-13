@@ -1,14 +1,42 @@
 .columns > div {
   display: flex;
   flex-direction: column;
+  text-align: center;
 }
 
 .columns img {
   width: 100%;
+  overflow: clip;
+  border-radius: 1.5em;
+}
+
+.columns h2 {
+  font-size: 1.5em;
+  color: #003291;
+  position: relative;
+}
+
+.columns p {
+  font-size: 0.8em;
+  color: #003291;
+}
+
+.columns a {
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  text-transform: uppercase;
+}
+
+.columns .button-container {
+  margin-top: auto;
+  margin-bottom: 0;
 }
 
 .columns > div > div {
   order: 1;
+  display: flex;
+  flex-direction: column;
 }
 
 .columns > div > .columns-img-col {
@@ -21,9 +49,8 @@
 
 @media (width >= 900px) {
   .columns > div {
-    align-items: center;
     flex-direction: unset;
-    gap: 32px;
+    gap: 16px;
   }
 
   .columns > div > div {
