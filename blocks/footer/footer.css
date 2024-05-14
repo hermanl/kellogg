@@ -3,6 +3,9 @@ footer {
   background-color: #003291;
   font-size: var(--body-font-size-s);
   color: #ffffff;
+  padding-left: 20%;
+  padding-right: 20%;
+  font-family: 'omnes-bold';
 }
 
 footer .footer {
@@ -12,4 +15,13 @@ footer .footer {
 
 footer .footer p {
   margin: 0;
+}
+
+footer .columns p {
+  color: white;
+  margin-top: 20px;
+}
+
+footer img {
+  fill: white;
 }
