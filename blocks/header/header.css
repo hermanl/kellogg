@@ -19,7 +19,7 @@ header nav {
   max-width: 1264px;
   height: var(--nav-height);
   padding: 0 1rem;
-  font-family: var(--body-font-family);
+  font-family: var(--heading-font-family);
 }
 
 header nav[aria-expanded="true"] {
@@ -171,7 +171,7 @@ header nav[aria-expanded="true"] .nav-sections {
 header nav .nav-sections ul  {
   list-style: none;
   padding-left: 0;
-  font-size: var(--body-font-size-s);
+  font-size: var(--heading-font-size-s);
   font-weight: 500;
 }
 
@@ -181,6 +181,7 @@ header nav .nav-sections ul > li {
 
 header nav .nav-sections ul > li > ul {
   margin-top: 0;
+  background-color: #003291;
 }
 
 header nav .nav-sections ul > li > ul > li {
@@ -249,7 +250,6 @@ header nav .nav-sections ul > li > ul > li {
     width: 200px;
     margin-top: 12px;
     padding: 1em;
-    background-color: var(--light-color);
     white-space: initial;
   }
 

@@ -21,7 +21,7 @@
 
   /* fonts */
   --body-font-family: "omnes", sans-serif;
-  --heading-font-family: var(--body-font-family);
+  --heading-font-family: "omnes-bold", sans-serif;
   --fixed-font-family: "omnes", sans-serif;
 
   /* body sizes */

@@ -21,7 +21,7 @@
   font-style: normal;
   font-weight: 400;
   font-display: swap;
-  src: url('../fonts/OmnesLight.ttf') format('ttf');
+  src: url('../fonts/OmnesLight.ttf') format('truetype');
 }
 
 @font-face {
@@ -29,5 +29,5 @@
   font-style: normal;
   font-weight: 400;
   font-display: swap;
-  src: url('../fonts/OmnesBold.ttf') format('ttf');
+  src: url('../fonts/OmnesBold.ttf') format('truetype');
 }
